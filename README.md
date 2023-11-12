@@ -7,7 +7,8 @@ Ismail Peracha, Matthew Villanueva, Samir Shivji
 ismailperacha@csu.fullerton.edu
 
 **Contributions:**
-Ismail:
+
+Ismail: Coded shell file, answered performance comparison questions.
 
 Matthew:
 
