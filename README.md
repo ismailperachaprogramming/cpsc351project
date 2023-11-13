@@ -26,7 +26,9 @@ Serial_Fetcher.cpp, as well as Parallel_fetcher.cpp need to be ran with the loca
 
 
 **Execution Times**
+
 Parallel Fetcher: Real time is 2.537 seconds, User time is 1.093 seconds, and System time is 0.105 seconds.
+
 Serial Fetcher: Real time is 2.846 seconds, User time is 0.149 seconds, and System time is 0.002 seconds.
 
 **Answers to Performance Comparison Questions**
