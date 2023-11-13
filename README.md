@@ -27,7 +27,7 @@ Serial_Fetcher.cpp, as well as Parallel_fetcher.cpp need to be ran with the loca
 
 **Execution Times**
 Parallel Fetcher:
-Serial Fetcher:
+Serial Fetcher: Real time is 2.846 seconds, User time is 0.149 seconds, and System time is 0.002 seconds.
 
 **Answers to Performance Comparison Questions**
 1. In the output of time, the difference between real, user, and sys times is that real is actual elapsed time, user time is the amount of CPU time spent in user-mode code within the process, while sys time is the amount of CPU time spent in the kernel within the process.
