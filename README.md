@@ -4,15 +4,15 @@
 Ismail Peracha, Matthew Villanueva, Samir Shivji
 
 **Email Addresses:**
-ismailperacha@csu.fullerton.edu
+ismailperacha@csu.fullerton.edu, samir0shivji@csu.fullerton.edu
 
 **Contributions:**
 
-Ismail: Coded shell file, answered performance comparison questions.
+Ismail: Coded shell file, answered performance comparison questions, worked on parallel fetcher file.
 
-Matthew:
+Matthew: Coded serial fetcher file, worked on parallel fetcher file.
 
-Samir:
+Samir: Worked on parallel fetcher file.
 
 **Each team member is familiar with all functionality in this project.**
 
