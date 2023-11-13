@@ -16,7 +16,7 @@ Samir: Worked on parallel fetcher file.
 
 **Each team member is familiar with all functionality in this project.**
 
-**We used C++ throughout this project**
+**We used C++ throughout this project.**
 
 **How to Execute Files**
 
