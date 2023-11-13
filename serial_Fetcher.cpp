@@ -5,8 +5,8 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-void fetchWeather(const std::string& latitude, const std::string& longitude, int locationIndex) {
-    std::string filename = "file" + std::to_string(locationIndex + 1) + ".json";
+void fetchWeather(const std::string& latitude, const std::string& longitude, int location_Index) {
+    std::string filename = "file" + std::to_string(location_Index + 1) + ".json";
     std::string url = "https://api.open-meteo.com/v1/forecast?latitude=" + latitude + "&longitude=" + longitude + "&current_weather=True";
 
     pid_t pid = fork();
@@ -21,7 +21,7 @@ void fetchWeather(const std::string& latitude, const std::string& longitude, int
         exit(1);
     } else {
         // Parent process
-        wait(nullptr); // Wait for the child to finish before proceeding to the next location
+        wait(nullptr); // Wait for the child to finish before going to the next location
     }
 }
 
@@ -32,15 +32,17 @@ int main() {
         return 1;
     }
 
-    std::string latitude, longitude;
-    int locationIndex = 0;
+    std::string latitude;
+    std::string longitude;
+    int location_Index = 0;
 
     while (input_file >> latitude >> longitude) {
-        fetchWeather(latitude, longitude, locationIndex);
-        locationIndex++;
+        fetchWeather(latitude, longitude, location_Index);
+        location_Index++;
     }
 
     input_file.close();
     return 0;
 }
+
 
