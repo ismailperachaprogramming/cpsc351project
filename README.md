@@ -22,7 +22,7 @@ Samir:
 
 Shell.cpp is a standalone file that runs on its own. When you run it, you as a user can input ps or ls or any other command, and the output will be given by fork(), wait(), and excelp().
 
-Serial_Fetcher.cpp, as well as Parallel_fetcher.cpp need to be ran with the locations.txt file, in order for it to work.
+Serial_Fetcher.cpp, as well as Parallel_fetcher.cpp need to be ran with the locations.txt file, in order for it to work. Parallel_fetcher.cpp also needs the "time Parallel_fetcher.cpp" command to be run in the shell to give the real, user, and system times.
 
 
 **Execution Times**
