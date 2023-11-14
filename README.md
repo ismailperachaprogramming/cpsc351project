@@ -4,7 +4,7 @@
 Ismail Peracha, Matthew Villanueva, Samir Shivji
 
 **Email Addresses:**
-ismailperacha@csu.fullerton.edu, samir0shivji@csu.fullerton.edu
+ismailperacha@csu.fullerton.edu, msvillanueva13@csu.fullerton.edu, samir0shivji@csu.fullerton.edu
 
 **Contributions:**
 
